@@ -57,8 +57,8 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 0.8 }}
-            src="image2.png"
-            className="w-full h-auto transform hover:scale-105 transition duration-300"
+            src="about.avif"
+            className="w-full h-auto transform hover:scale-105 transition duration-300 rounded-r-4xl"
           ></motion.img>
         </div>
       </div>
