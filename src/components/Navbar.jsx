@@ -5,7 +5,7 @@ import { useState } from "react";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="w-full py-4 bg-[#2E2B2B] drop-shadow-[0_0_25px_rgba(255,165,0,0.8)]">
+    <nav className="w-full py-4 bg-[#2E2B2B] drop-shadow-[0_0_25px_rgba(255,165,0,0.8)] fixed top-0">
       <div className="container mx-auto flex justify-between items-center px-6">
         <motion.a
           className="text-2xl font-bold text-gray-200 cursor-pointer"
