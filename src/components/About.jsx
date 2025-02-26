@@ -23,8 +23,8 @@ const About = () => {
           >
             I'm a passionate Web Developer with a focus on building modern,
             interactive web applications. With extensive experience in front-end
-            technologies such as React.js, CSS, and JavaScript, I aim to create
-            seamless user experiences that engage and inspire.
+            technologies such as HTML, CSS, JavaScript and React.js, I aim to
+            create seamless user experiences that engage and inspire.
           </motion.p>
           <motion.p
             className="text-lg md:text-xl text-gray-300"
@@ -35,8 +35,8 @@ const About = () => {
           >
             I'm a passionate Web Developer with a focus on building modern,
             interactive web applications. With extensive experience in front-end
-            technologies such as React.js, CSS, and JavaScript, I aim to create
-            seamless user experiences that engage and inspire.
+            technologies such as HTML, CSS, JavaScript and React.js, I aim to
+            create seamless user experiences that engage and inspire.
           </motion.p>
 
           <motion.a
