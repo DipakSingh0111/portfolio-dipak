@@ -7,17 +7,17 @@ const ac = [
     issuer:
       "Bhai Gurdas Institute of Engineering & Technology is a college in Sangrur, Punjab, India.",
     date: "2019 To 2023",
-    // decsription: "Completed the advanced course on web development",
+    decsription: "7.26 cgpa",
   },
   {
-    title: "Full Stack Web Development",
-    issuer: "Techlive Solution Mohali Punjab",
+    title: "Full Stack Web Development MERN",
+    issuer: "Techlive Solution, Mohali Punjab",
     date: "August 2022 to January 2023",
     decsription: "Completed the Tranning in web development",
   },
   {
     title: "Python Full Stack Development",
-    issuer: "Naresh I Technology",
+    issuer: "Naresh I Technology Hyderabad",
     date: "November 2023 to March 2024",
     decsription:
       "Completed the 6 months Tranning in python Full Stack Development.",

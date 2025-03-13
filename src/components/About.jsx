@@ -23,7 +23,7 @@ const About = () => {
           >
             I'm a passionate Web Developer with a focus on building modern,
             interactive web applications. With extensive experience in front-end
-            technologies such as HTML, CSS, JavaScript and React.js, I aim to
+            technologies such as HTML, CSS, JavaScript and React.js,Tailwind CSS, I aim to
             create seamless user experiences that engage and inspire.
           </motion.p>
           <motion.p
@@ -33,10 +33,15 @@ const About = () => {
             viewport={{ once: false, amount: 0.5 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            I'm a passionate Web Developer with a focus on building modern,
-            interactive web applications. With extensive experience in front-end
-            technologies such as HTML, CSS, JavaScript and React.js, I aim to
-            create seamless user experiences that engage and inspire.
+            I'm a passionate Backend Developer with a focus on building robust and scalable server-side applications. With extensive experience in backend technologies such as Node.js, Express.js, MongoDB, and MySQL, I aim to create efficient APIs and database architectures that power seamless user experiences.
+
+
+
+
+
+
+
+
           </motion.p>
 
           <motion.a
