@@ -121,7 +121,7 @@ const Contact = () => {
               rows="5"
             ></textarea>
             <button
-              className="w-full py-3 bg-[#D97706] rounded-full"
+              className="w-full py-3 bg-[#D97706] rounded-full cursor-pointer"
               type="submit"
             >
               Send Message
