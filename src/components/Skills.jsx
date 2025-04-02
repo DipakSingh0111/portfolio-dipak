@@ -10,7 +10,7 @@ import {
   FaPython,
   FaReact,
 } from "react-icons/fa";
-import { SiExpress, SiMysql, SiTypescript } from "react-icons/si";
+import { SiDjango, SiExpress, SiMysql, SiTypescript } from "react-icons/si";
 
 const SkillCard = ({ skill, index }) => {
   return (
@@ -33,9 +33,9 @@ const SkillCard = ({ skill, index }) => {
           {skill.icon}
         </div>
 
-        <span className="absolute bottom-4 text-2xl md:text-3xl font-bold">
-          {skill.level}%
-        </span>
+        {/* <span className="absolute bottom-4 text-2xl md:text-3xl font-bold">
+          {skill.level}
+        </span> */}
 
         <div className="absolute bottom-0 left-0 right-0 text-center text-sm md:text-lg font-semibold opacity-0 group-hover:opacity-100"></div>
       </motion.div>
@@ -47,17 +47,19 @@ const SkillCard = ({ skill, index }) => {
 };
 const Skills = () => {
   const skills = [
-    { name: "HTML", level: 95, icon: <FaHtml5 />, color: "#E34F26" },
-    { name: "CSS", level: 85, icon: <FaCss3 />, color: "#1572B6" },
-    { name: "JavaScript", level: 80, icon: <FaJs />, color: "#F7DF1E" },
-    { name: "TypeScript", level: 75, icon: <SiTypescript />, color: "#3178C6" },
-    { name: "React", level: 75, icon: <FaReact />, color: "#61DAFB" },
-    { name: "Node.js", level: 70, icon: <FaNodeJs />, color: "#339933" },
-    { name: "Express.js", level: 70, icon: <SiExpress />, color: "#000000" }, // Black (Express has no logo color)
-    { name: "MongoDB", level: 65, icon: <FaDatabase />, color: "#47A248" },
-    { name: "MySQL", level: 65, icon: <SiMysql />, color: "#4479A1" },
-    { name: "Git", level: 85, icon: <FaGitAlt />, color: "#F05032" },
-    { name: "Python", level: 60, icon: <FaPython />, color: "#3776AB" },
+    { name: "HTML", icon: <FaHtml5 />, color: "#E34F26" },
+    { name: "CSS", icon: <FaCss3 />, color: "#1572B6" },
+    { name: "JavaScript", icon: <FaJs />, color: "#F7DF1E" },
+    { name: "TypeScript", icon: <SiTypescript />, color: "#3178C6" },
+    { name: "React.js", icon: <FaReact />, color: "#61DAFB" },
+    { name: "Node.js", icon: <FaNodeJs />, color: "#339933" },
+    { name: "Express.js", icon: <SiExpress />, color: "#000000" }, // Black (Express has no official logo color)
+    { name: "MongoDB", icon: <FaDatabase />, color: "#47A248" },
+    { name: "MySQL", icon: <SiMysql />, color: "#4479A1" },
+    { name: "Git & Github", icon: <FaGitAlt />, color: "#F05032" },
+    { name: "Python", icon: <FaPython />, color: "#3776AB" },
+    { name: "Django", icon: <SiDjango />, color: "#092E20" }, // Django official color
+    // { name: "Python", level: 60, icon: <FaPython />, color: "#3776AB" },
   ];
 
   return (
