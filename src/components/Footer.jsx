@@ -30,7 +30,7 @@ const Footer = () => {
           <p className="flex items-center justify-center md:justify-center"><FaMapMarkerAlt className="mr-2" /> New Delhi, India</p>
           <p className="flex items-center justify-center md:justify-end"><FaEnvelope className="mr-2" /> dipaksingh3323@gmail.com</p>
         </div>
-        <p className="mt-6 text-gray-500 text-xs">© 2025 Dipak Singh. All rights reserved.</p>
+        <p className="mt-6 text-gray-500 text-xs">Copyright {new Date().getFullYear()} © Dipak Singh. All Right Reserved.</p>
       </div>
     </motion.footer>
   );
