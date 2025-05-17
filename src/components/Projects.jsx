@@ -44,18 +44,24 @@ const Projects = () => {
   const projects = [
     {
       title: "Project One",
+      decsription: "GroceryE - Commerce Web App",
+      image: "green_cart.png",
+      link: "https://green-cart-ten.vercel.app/",
+    },
+    {
+      title: "Project Two",
       decsription: "Shifra AI Virtual Assistant",
       image: "ai.png",
       link: "https://ai-voice-dipak.vercel.app/",
     },
     {
-      title: "Project Two",
+      title: "Project Three",
       decsription: "Salonist Marketplace Website",
       image: "salonist.jpg",
       link: "https://dipak-salonist-website.netlify.app/",
     },
     {
-      title: "Project Three",
+      title: "Project Four",
       decsription: "Word Counter Website",
       image: "wordCounter.png",
       link: "https://textutils-dipak.netlify.app/",

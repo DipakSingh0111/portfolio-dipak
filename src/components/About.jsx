@@ -34,18 +34,10 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             I'm a passionate Backend Developer with a focus on building robust and scalable server-side applications. With extensive experience in backend technologies such as Node.js, Express.js, MongoDB, and MySQL, I aim to create efficient APIs and database architectures that power seamless user experiences.
-
-
-
-
-
-
-
-
           </motion.p>
 
           <motion.a
-            href="Dipak-Singh-Resume.pdf"
+            href="DIPAK_SINGH_RESUMES.pdf"
             className="inline-block mt-6 px-8 py-3 bg-[#d97706] text-lg font-semibold "
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
