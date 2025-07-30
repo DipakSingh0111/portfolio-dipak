@@ -37,7 +37,7 @@ const About = () => {
           </motion.p>
 
           <motion.a
-            href="DIPAK_SINGH_RESUMES.pdf"
+            href="Dipak_Resume.pdf"
             className="inline-block mt-6 px-8 py-3 bg-[#d97706] text-lg font-semibold "
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
